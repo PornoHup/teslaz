@@ -428,7 +428,7 @@ bot.start(async (ctx) => {
         reply_markup:{
             inline_keyboard:[
                 [{text:'Botu Qrupa Əlavə Edin ✅', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Rəsmi Kanalımız 📣', url:`https://t.me/Robotlarm`},{text:'Qruplar 💎', callback_data:'vip'}]
+                [{text:'Rəsmi Kanalımız 📣', url:`https://t.me/AyselProje`},{text:'Qruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -468,8 +468,8 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 Qruplar*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'https://t.me/RiyaddBlogg'}],
-                [{text:'2) Rəsmi Kanalımız ', url:'https://t.me/RiyaddBlogg'}],
+                [{text:'1) Rəsmi Qrup ', url:'https://t.me/MinBirGeceee'}],
+                [{text:'2) Rəsmi Kanalımız ', url:'https://t.me/AyselProje'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -484,8 +484,8 @@ bot.action('TR', ctx=>{
        `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup', url:'https://t.me/RiyaddBlogg'}],
-                [{text:'2) Rəsmi Kanalımız', url:'https://t.me/RiyaddBlogg'}],
+                [{text:'1) Rəsmi Qrup', url:'https://t.me/MinBirGeceee'}],
+                [{text:'2) Rəsmi Kanalımız', url:'https://t.me/AyselProje'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
