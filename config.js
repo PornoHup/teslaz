@@ -1,3 +1,3 @@
 module.exports = ({
-	emojiSaniye: 5,
+	emojiSaniye: 3,
 });
